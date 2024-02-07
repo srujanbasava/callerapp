@@ -9,7 +9,7 @@ class CallEndScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Call End'),
+        title: Text('Missed Calls'),
       ),
       body: ListView.builder(
         itemCount: callEndList.length,
