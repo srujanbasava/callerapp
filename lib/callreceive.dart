@@ -9,7 +9,7 @@ class CallReceiveScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Call Receive'),
+        title: Text('Incoming'),
       ),
       body: ListView.builder(
         itemCount: callReceiveList.length,
