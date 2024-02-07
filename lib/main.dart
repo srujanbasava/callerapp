@@ -53,8 +53,8 @@ class _PermissionScreenState extends State<PermissionScreen> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Permission Denied'),
-            content: Text('You denied the required permission.'),
+            title: Text('Permission Required'),
+            content: Text('CallerApp requires permission to acces your contacts'),
             actions: [
               TextButton(
                 onPressed: () {
@@ -102,10 +102,10 @@ class MyHomePage extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Call Log'),
+          //title: Text('Call Log'),
           bottom: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.history), text: 'History'),
+              Tab(icon: Icon(Icons.history), text: 'Traces'),
               Tab(icon: Icon(Icons.star), text: 'Favourites'),
               Tab(icon: Icon(Icons.contacts), text: 'Contacts'),
             ],
