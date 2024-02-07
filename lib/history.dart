@@ -24,16 +24,16 @@ class _HistoryScreenState extends State<HistoryScreen> {
   final List<Map<String, dynamic>> callHistory = [
     {'Name': 'Aditya Singh', 'Phone Number': '9807345614', 'Duration': '3m 23s', 'Timestamp': 'Today 4:23 PM', 'Status': 'Sent'},
     {'Name': 'Siddiki Bhabhi MUM', 'Phone Number': '9766089384', 'Duration': '15m 02s', 'Timestamp': 'Today 1:21 PM', 'Status': 'Received'},
-    {'Name': 'Rajan Nijampur', 'Phone Number': '9598164418', 'Duration': '1m 06s', 'Timestamp': 'Today 8:06 AM', 'Status': 'Rejected'},
+    {'Name': 'Rajan Nijampur', 'Phone Number': '9598164418', 'Duration': '00m 00s', 'Timestamp': 'Today 8:06 AM', 'Status': 'Rejected'},
     {'Name': 'Rohan Ji Advocate', 'Phone Number': '9930319935', 'Duration': '5m 12s', 'Timestamp': 'Yes 9.11 PM', 'Status': 'Sent'},
     {'Name': 'Gunjan Pant', 'Phone Number': '9892856748', 'Duration': '8m 34s', 'Timestamp': 'Yes 6.51 AM', 'Status': 'Received'},
-    {'Name': 'Devendra Singh Sipahi', 'Phone Number': '9453912460', 'Duration': '2m 45s', 'Timestamp': '29/01 7.28 PM', 'Status': 'Rejected'},
+    {'Name': 'Devendra Singh Sipahi', 'Phone Number': '9453912460', 'Duration': '0m 00s', 'Timestamp': '29/01 7.28 PM', 'Status': 'Rejected'},
     {'Name': 'Jimmy Lab', 'Phone Number': '9820957414', 'Duration': '10m 20s', 'Timestamp': '29/01 3:55 PM', 'Status': 'Sent'},
     {'Name': 'Mayawati Home', 'Phone Number': '5222236838', 'Duration': '6m 08s', 'Timestamp': '28/01 2:15 AM', 'Status': 'Received'},
-    {'Name': 'Piyush Singh U.P.', 'Phone Number': '7505043398', 'Duration': '3m 50s', 'Timestamp': '27/01 1:50 PM', 'Status': 'Rejected'},
+    {'Name': 'Piyush Singh U.P.', 'Phone Number': '7505043398', 'Duration': '0m 00s', 'Timestamp': '27/01 1:50 PM', 'Status': 'Rejected'},
     {'Name': 'Anurag Srivastav', 'Phone Number': '9696837373', 'Duration': '7m 15s', 'Timestamp': '27/01 11:35 AM', 'Status': 'Sent'},
     {'Name': 'Vinod Singh Surat', 'Phone Number': '7567095040', 'Duration': '4m 02s', 'Timestamp': '26/01 3:20 PM', 'Status': 'Received'},
-    {'Name': 'Saline', 'Phone Number': '8051538147', 'Duration': '1m 55s', 'Timestamp': '24/01 2:05 AM', 'Status': 'Rejected'},
+    {'Name': 'Saline', 'Phone Number': '8051538147', 'Duration': '0m 00s', 'Timestamp': '24/01 2:05 AM', 'Status': 'Rejected'},
   ];
 
   List<Map<String, dynamic>> filteredCallHistory = [];
@@ -51,7 +51,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('Call History'),
+            Text('Traces'),
             Row(
               children: [
                 IconButton(
