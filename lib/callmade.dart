@@ -9,7 +9,7 @@ class CallMadeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Call Made'),
+        title: Text('Outgoing'),
       ),
       body: ListView.builder(
         itemCount: callMadeList.length,
